@@ -6,7 +6,7 @@ import io.micronaut.http.annotation.Get
 @Controller
 class SampleController {
 
-    @Get("index.txt")
+    @Get("/index.txt")
     fun resolve(): String {
         return "Hello IntelliJ. Please resolve this bug."
     }
