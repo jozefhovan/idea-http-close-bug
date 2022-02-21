@@ -22,3 +22,8 @@ and closing HTTP client causes connection reset. I simulated this behavior in te
 
 Reading one more byte correctly closes TCP socket.
 
+# Content
+* src/main - sample micronaut http application
+* src/test - simulations using HttpClient v.4.5.13 
+* http - Idea Http Client file
+* wireshark - tcp dump containg Idea and curl data
