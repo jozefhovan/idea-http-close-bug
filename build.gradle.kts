@@ -35,6 +35,7 @@ dependencies {
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
+    implementation("org.apache.httpcomponents:httpclient:4.5.13")
 }
 
 
