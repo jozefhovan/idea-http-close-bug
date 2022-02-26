@@ -27,3 +27,6 @@ Reading one more byte correctly closes TCP socket.
 * src/test - simulations using HttpClient v.4.5.13 
 * http - Idea Http Client file
 * wireshark - tcp dump containg Idea and curl data
+
+# Bug report
+https://youtrack.jetbrains.com/issue/IDEA-289393
